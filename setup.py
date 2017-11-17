@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
+
 import os
 from os.path import join as pathjoin, exists as pathexists, dirname, basename, abspath
 from distutils.core import setup
@@ -23,7 +25,7 @@ __version__ = m.group(1)
 
 srcdir = dirname(abspath(__file__))
 
-print "running setup for html2rest version %s" % __version__
+print("running setup for html2rest version %s" % __version__)
 
 
 
